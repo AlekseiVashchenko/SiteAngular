@@ -213,8 +213,21 @@ header {
     }
 
     .item-img {
+        position: relative;
         img {
             width: 250px;
+        }
+
+        a {
+            z-index: 2;
+            background: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            i {
+                font-size: 16px;
+                color: orange;
+            }
         }
     }
     .item-desc {
