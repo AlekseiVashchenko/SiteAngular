@@ -10,6 +10,7 @@ import { RecepiesListComponent } from './recepies-list/recepies-list.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormRecepiComponent } from './form-recepi/form-recepi.component';
+import { ContentWrapComponent } from './content-wrap/content-wrap.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormRecepiComponent } from './form-recepi/form-recepi.component';
     RecepiesListComponent,
     ListItemComponent,
     FooterComponent,
-    FormRecepiComponent
+    FormRecepiComponent,
+    ContentWrapComponent
   ],
   imports: [
     BrowserModule,
