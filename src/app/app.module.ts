@@ -9,6 +9,7 @@ import { DescriptionComponent } from './description/description.component';
 import { RecepiesListComponent } from './recepies-list/recepies-list.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormRecepiComponent } from './form-recepi/form-recepi.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     DescriptionComponent,
     RecepiesListComponent,
     ListItemComponent,
-    FooterComponent
+    FooterComponent,
+    FormRecepiComponent
   ],
   imports: [
     BrowserModule,
