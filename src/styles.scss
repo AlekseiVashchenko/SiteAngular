@@ -1,0 +1,260 @@
+/* You can add global styles to this file, and also import other style files */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+header {
+    position: relative;
+    padding: 30px 0;
+    background: rgba(255,255,255,.7);
+    z-index: 2;
+
+    .logo {
+        width: 300px;
+        display: inline-block;
+    
+        p {
+            padding: 0 60px;
+            font-size: 26px;
+            text-transform: uppercase;
+            color: green;
+            font-weight: bold;
+        }
+    
+        span {
+            color: orange;
+        }
+    }
+    
+    .profile {
+        display: inline-block;
+        width: 150px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -7px;
+        padding: 0 70px;
+    
+        p {
+            font-size: 18px;
+        }
+    
+    
+        :before {
+            width: 55px;
+            content: '';
+            position: absolute;
+            top: -17px;
+            left: 0;
+            height: 55px;
+            background: url(./assets/images/landing.png);
+            border-radius: 50%;
+        }
+    
+        ::after {
+            width: 26px;
+            height: 25px;
+            content: '';
+            position: absolute;
+            top: -5px;
+            right: 100px;
+            background: url(./assets/images/arr-down1.png);
+        }
+        
+    }
+    
+}
+
+.main-idea{
+    height: 500px;
+    background: url(./assets/images/fon.png);
+    background-size: cover;
+    position: relative;
+    left: 0;
+    top: -86px;
+
+    p {
+        text-align: center;
+        color: white;
+    }
+
+    .slogo {
+        padding-top: 150px;
+    
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .named {
+        padding: 30px 0;
+        
+        p {
+            text-transform: uppercase;
+            font-size: 80px;
+            font-weight: bold;
+        }
+    }
+
+    .named-desc {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    a {
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        border: 1px solid white;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        margin-left: -70px;
+    }
+
+}
+
+.description {
+    background: rgb(246,251,245);
+    position: relative;
+    top: -86px;
+    padding: 100px 50px;
+
+    
+
+    h3 {
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+       
+    }
+
+    p {
+        padding: 30px 200px 0 200px ;
+    };
+}
+.description::before {
+    
+        content: '';
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        margin-left: -10px;
+        width: 45px;
+        height: 32px;
+        background: url(./assets/images/sign.png);
+    
+}
+
+.list-recepies {
+    position: relative;
+    top: -86px;
+    padding: 150px 230px;
+
+    .wrap {
+        padding-bottom: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 15px 30px;
+        background: green;
+        color: white;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .item {
+        width: 250px;
+        display: inline-block;
+    }
+
+    .item-img {
+        img {
+            width: 250px;
+        }
+    }
+    .item-desc {
+        h4 {
+            text-align: center;
+            padding: 15px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        p {
+            text-align: center;
+        }
+    }
+
+    .item-likes {
+        padding: 20px 50px;
+    }
+}
+
+footer {
+
+    background: rgb(66,66,66);
+
+    div {
+        display: inline-block;
+        width: 350px;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 0 20px;
+        color: white;
+
+        i {
+            font-size: 25px;
+            color: rgb(255,189,54);
+        }
+    }
+}
